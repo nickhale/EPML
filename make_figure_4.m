@@ -49,8 +49,8 @@ hold off
 axis([0 2 0 1]), shg
 
 % Legend and axes labels:
-legend('Data', '(5.1)', 'CEV', 'PML', 'EPML (K_2 = 0.25)', ...
-    'EPML (K_2 = 0.5)'), shg
+legend('Data', '(5.1)', 'CEV', 'PML', 'EPML ($\tilde K_2 = 0.25$)', ...
+    'EPML ($\tilde K_2 = 0.5$)', 'interpreter', 'latex'), shg
 xlabel('$|\xi_N|$', 'interpreter', 'latex')
 ylabel('$F_N(\xi_N)$', 'interpreter', 'latex')
 set(gca, 'fontsize', 16)
